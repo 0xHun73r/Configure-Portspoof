@@ -1,6 +1,9 @@
 # Configure-Portspoof
 How to configure portspoof (Debian)
 
+### What is Portspoof?
+Portspoof is a tool that spoofs ports to make it seem like they are open, when in reality they are not. It can slow down an attacker tremendously. It will not only spoof the ports, but will also spoof fake services to make the ports seem more legit. This tool is from Black Hills Information Security (BHIS), and i  have no affiliation, nor have I assisted in he development in the tool. All credit goes to them. That being said, there is not much information out there on how to setup and keep this tool running on your network.
+
 #### Portspoof setup
 ```bash
 sudo git clone https://github.com/drk1wi/portspoof.git
