@@ -31,4 +31,4 @@ sudo apt install iptables-persistent
 sudo iptables-save > /etc/iptables/rules.v4 (may have to run as root without sudo)
 ```
 After doing this a SNAT policy will need to be setup through your firewall to route traffic to your portspoof device.
-For safe measures setup a policy to deny ssh from outside your network to your portspoof device.                                                              You can also segment the device from you network if you wish.
+For safe measures setup a policy to deny ssh from outside your network to your portspoof device.                                                              You can also segment the device from your network if you wish.
